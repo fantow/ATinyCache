@@ -18,7 +18,7 @@ public class XmlDocumentHolder implements IDocumentHolder{
     private Document readDocument(String filePath){
 
         SAXReader reader = new SAXReader(true);
-        reader.setEntityResolver();
+//        reader.setEntityResolver();
 
     }
 
